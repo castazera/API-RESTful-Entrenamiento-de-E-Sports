@@ -121,39 +121,6 @@
   </form>
   <div id="resultados-jugador"></div>  
 
-  <h2><strong>Ejemplos de uso con curl</strong></h2>
-
-  <h3>Crear un jugador</h3>
-  <pre><code>curl -X POST /api/jugadores 
-    -H "Content-Type: application/json" 
-    -d '{
-    "nombre": "Juan",
-    "nickname": "ProGamer",
-    "edad": 22,
-    "juego": "Valorant",
-    "nivel": "pro",
-    "email": "juan@email.com"
-  }'</code></pre>
-
-
-  <h3>Crear un entrenamiento</h3>
-  <pre><code>curl -X POST /api/entrenamientos 
-    -H "Content-Type: application/json" 
-    -d '{
-    "jugador_id": "664266426642664266426642",
-    "duracion": 60,
-    "tipo": "Individual",
-    "objetivo": "Aprender a usar el personaje",
-    "metricas": {
-      "kda": 1.5,
-      "winRate": 70,
-      "tiempoReaccion": 150,
-      "precision": 85
-    },
-    "notas": "Notas del entrenamiento",
-    "estado": "Programado"
-  }'</code></pre>
-
   <h3>Consultar un jugador por ID</h3>
   <pre><code>curl /api/jugadores/6828d0a2c115c6f0e3068b9c</code></pre>
 
