@@ -117,4 +117,4 @@ Este proyecto está bajo la Licencia ISC.
 
 Fernandez, Brian Gabriel - briangfernandez011@gmail.com
 
-Link del Proyecto: [https://github.com/tu-usuario/tu-repositorio]
+Link del Proyecto: https://github.com/castazera/API-RESTful-Entrenamiento-de-E-Sports
